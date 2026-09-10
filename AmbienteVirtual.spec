@@ -16,5 +16,10 @@ Criando ambiente virtual
         test\Scripts\Activate.ps1 -> colar VsCode
 
 ->Confirmar se esta usando o ambiente virtual:
-    - py --version
+     py --version
 
+->Desativar Ambiente virtual:
+     deActivate
+
+->Voltar a um ambiente: 
+    test\Scripts\Activate.ps1 -> colar VsCode
