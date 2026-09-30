@@ -15,6 +15,16 @@ cursor.execute("""
 #                 ('Pedro',-2000,'1234567810')
 #                 """)
 
-cursor.execute("""""")
-
+cursor.execute("""SELECT nome,saldo FROM contas_bancarias
+WHERE saldo>10""")
+contas=cursor.fetchall()
+for conta in contas:
+    nome,saldo=conta
+    print(f"""Nome: {nome}
+Saldo: R${saldo}
+""")
+    print("\n")
 conexao.commit()
+
+
+

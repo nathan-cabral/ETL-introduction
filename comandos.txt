@@ -28,3 +28,6 @@
 
 # para descomentar varias linhas: 
     ctrl+K ctrl+U
+
+# para criar uma nova pasta:
+    mkdir nome_pasta
