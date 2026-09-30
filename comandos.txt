@@ -22,3 +22,9 @@
 
 # para acessar os terminais 
     ctrl+shift+\
+
+# para comentar varias linhas:  
+    ctrl+K ctrl+C
+
+# para descomentar varias linhas: 
+    ctrl+K ctrl+U
