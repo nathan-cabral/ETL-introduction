@@ -31,3 +31,35 @@
 
 # para criar uma nova pasta:
     mkdir nome_pasta
+
+# para renomear arquivos: 
+    fn+f2
+
+
+
+## COMANDOS PARA O jupyter:
+
+    # criar celula acima: 
+        A
+    
+    # criar celula abaixo: 
+        B
+
+    # executar a celula atual e vai para a proxima:
+        shift+enter
+    
+    # executa so a celula atual:
+        ctrl+enter
+    
+    # executa a celula atual e cria outra abaixo:
+        alt+enter
+
+    # entrar no modo comando: 
+        esc (na celula)
+        enter (edita a celula)
+
+    # excluir a celula:
+        d d 
+
+    
+        
